@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Verma Jewellers – Training Dashboard</title>
+<style>
+  :root{
+    --navy:#12295a;
+    --navy-soft:#1c3c72;
+    --gold:#c3a14a;
+    --gold-soft:#eadfba;
+    --paper:#f5f0e8;
+    --card:#ffffff;
+    --ink:#1d2433;
+    --muted:#6a7080;
+    --line:#e4ddd0;
+    --good:#2c7a4b;
+    --bad:#a8322a;
+    --warn:#b7791f;
+  }
+  *{box-sizing:border-box;}
+  html{-webkit-text-size-adjust:100%;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.45;}
+  .wrap{max-width:760px;margin:0 auto;}
+
+  /* ---------- header ---------- */
+  header{background:var(--navy);color:#fff;padding:22px 18px 0;}
+  .brand{display:flex;gap:14px;align-items:center;}
+  .logo{flex:none;width:58px;height:66px;border:2px solid var(--gold);border-radius:4px;display:flex;align-items:center;justify-content:center;color:var(--gold);font:600 20px Georgia,serif;letter-spacing:1px;}
+  .brand h1{margin:0;font:700 28px/1.1 Georgia,serif;color:var(--gold);letter-spacing:.5px;}
+  .brand .tag{color:#dfe5f2;font-size:15px;margin-top:3px;}
+  header h2{margin:20px 0 6px;font:700 25px/1.2 Georgia,serif;}
+  header .period{color:#c9d3e8;font-size:15px;padding-bottom:18px;}
+  .tabs{display:flex;gap:12px;margin-top:6px;}
+  .tab{flex:1;border:0;cursor:pointer;padding:14px 8px 15px;border-radius:12px 12px 0 0;background:var(--navy-soft);color:#dfe5f2;font:inherit;text-align:center;}
+  .tab b{display:block;font-size:17px;}
+  .tab span{font-size:15px;}
+  .tab[aria-selected="true"]{background:var(--paper);color:var(--navy);}
+  .tab:focus-visible,.filter select:focus-visible,.link:focus-visible,summary:focus-visible{outline:3px solid var(--gold);outline-offset:2px;}
+
+  /* ---------- controls ---------- */
+  main{padding:20px 18px 40px;}
+  .filter{position:relative;display:inline-block;}
+  .filter[hidden]{display:none;}
+  .filter select{appearance:none;-webkit-appearance:none;border:0;background:var(--navy);color:#fff;font-size:18px;font-weight:600;font-family:inherit;padding:14px 46px 14px 20px;border-radius:12px;cursor:pointer;}
+  .filter::after{content:"▾";position:absolute;right:18px;top:50%;transform:translateY(-50%);color:#fff;pointer-events:none;}
+  .controls{display:flex;gap:12px;flex-wrap:wrap;align-items:center;}
+  .btn{display:inline-flex;align-items:center;gap:10px;border:0;border-radius:12px;padding:14px 22px;background:var(--gold);color:#1b2a4d;font-family:inherit;font-size:18px;font-weight:700;cursor:pointer;box-shadow:0 1px 3px rgba(20,30,60,.2);}
+  .btn:hover{background:#d2b25c;}
+  .btn:focus-visible{outline:3px solid var(--navy);outline-offset:2px;}
+  .btn[disabled]{opacity:.65;cursor:wait;}
+  .btn .ico{font-size:22px;line-height:1;display:inline-block;}
+  .btn.spin .ico{animation:turn 1s linear infinite;}
+  @keyframes turn{to{transform:rotate(360deg);}}
+  .statusline{display:flex;align-items:center;gap:10px;margin:16px 0 8px;color:var(--muted);flex-wrap:wrap;}
+  .dot{width:16px;height:16px;border-radius:50%;background:var(--good);flex:none;}
+  .dot.loading{background:var(--warn);}
+  .dot.error{background:var(--bad);}
+  .link{background:none;border:0;padding:0;font:inherit;color:var(--navy);text-decoration:underline;font-weight:700;cursor:pointer;}
+  .hint{color:var(--muted);margin:6px 0 22px;font-size:15px;}
+
+  .banner{border:1px solid var(--warn);background:#fbf3e0;color:#6b4a10;padding:12px 14px;border-radius:10px;margin:0 0 16px;font-size:15px;}
+  .banner.bad{border-color:var(--bad);background:#fbeceb;color:#7a1f19;}
+
+  /* ---------- location section ---------- */
+  .loc-title{margin:6px 0 4px;font:700 30px Georgia,serif;color:var(--navy);}
+  .loc-desc{color:var(--muted);margin:0 0 20px;}
+  .row-head{display:flex;align-items:center;gap:10px;margin:18px 0 8px;flex-wrap:wrap;}
+  .badge{font-size:13px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;padding:7px 14px;border-radius:999px;}
+  .badge.done{background:var(--navy);color:#fff;}
+  .badge.wait{background:var(--gold-soft);color:#5a4712;}
+  .badge.plain{background:#ece8df;color:var(--muted);}
+  .row-head .when{font-weight:700;font-size:17px;}
+  .row-head .pill{margin-left:auto;background:#ece8df;color:var(--muted);font-size:14px;padding:7px 14px;border-radius:999px;}
+
+  details.card{background:var(--card);border:1px solid var(--line);border-radius:14px;box-shadow:0 1px 3px rgba(20,30,60,.06);}
+  details.card > summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:12px;padding:18px 20px;}
+  details.card > summary::-webkit-details-marker{display:none;}
+  .sum-main{flex:1;min-width:0;}
+  .sum-main .t{font-weight:700;font-size:19px;overflow-wrap:anywhere;}
+  .sum-main .s{color:var(--muted);font-size:15px;margin-top:3px;}
+  .score{text-align:right;flex:none;}
+  .score .n{font:700 30px Georgia,serif;}
+  .score .l{font-size:13px;color:var(--muted);}
+  .score.good .n{color:var(--good);} .score.bad .n{color:var(--bad);} .score.none .n{color:var(--muted);font-size:20px;}
+  .caret{color:var(--muted);transition:transform .15s;}
+  details[open] .caret{transform:rotate(180deg);}
+  .detail{padding:2px 20px 20px;border-top:1px solid var(--line);}
+  .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:16px 0;}
+  .cell{background:#faf7f1;border-radius:10px;padding:10px 12px;}
+  .cell .k{font-size:12px;color:var(--muted);}
+  .cell .v{font:700 20px Georgia,serif;margin-top:2px;}
+  .cell .v.good{color:var(--good);} .cell .v.bad{color:var(--bad);}
+  .cell .x{font-size:12px;color:var(--muted);}
+  .note{font-size:14px;color:var(--muted);margin:6px 0;}
+  table.dept{width:100%;border-collapse:collapse;font-size:14px;margin-top:10px;}
+  table.dept th{text-align:left;font-weight:600;color:var(--muted);padding:6px 4px;border-bottom:1px solid var(--line);}
+  table.dept td{padding:7px 4px;border-bottom:1px solid #f0ebe0;}
+  table.dept td:nth-child(n+2),table.dept th:nth-child(n+2){text-align:right;}
+
+  .empty{background:var(--card);border:1px dashed var(--line);border-radius:14px;padding:24px;text-align:center;color:var(--muted);}
+  details.notes{margin-top:34px;color:var(--muted);font-size:14px;}
+  details.notes summary{cursor:pointer;font-weight:700;color:var(--navy);}
+  details.notes ul{margin:10px 0 0;padding-left:20px;}
+  .legend{margin-top:26px;font-size:14px;color:var(--muted);}
+  .legend b.g{color:var(--good);} .legend b.r{color:var(--bad);}
+  @media (max-width:520px){ .grid{grid-template-columns:repeat(2,1fr);} .brand h1{font-size:25px;} }
+  @media (prefers-reduced-motion:reduce){ .caret{transition:none;} .btn.spin .ico{animation:none;} }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="brand">
+      <!-- LOGO PLACEHOLDER: to use your real logo, replace this <div> with: <img src="logo.png" alt="Verma Jewellers" height="66"> -->
+      <div class="logo" aria-label="Logo placeholder">VJ</div>
+      <div>
+        <h1>VERMA JEWELLERS</h1>
+        <div class="tag" id="tagline"></div>
+      </div>
+    </div>
+    <h2>Training &amp; Assessment Dashboard</h2>
+    <div class="period" id="period">Loading…</div>
+    <div class="tabs" id="tabs" role="tablist" aria-label="Locations"></div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <div id="warnings"></div>
+
+    <div class="controls">
+      <label class="filter" id="filterWrap" hidden>
+        <span style="position:absolute;left:-9999px">Filter by month</span>
+        <select id="monthSel"></select>
+      </label>
+      <button class="btn" id="refreshBtn" type="button" title="Reads the latest data from the Google Sheet"><span class="ico" aria-hidden="true">↻</span><span id="refreshLabel">Refresh data</span></button>
+    </div>
+
+    <div class="statusline" aria-live="polite">
+      <span class="dot loading" id="dot"></span>
+      <span id="statusText">Loading…</span>
+    </div>
+    <p class="hint" id="hint"></p>
+
+    <div id="content"></div>
+
+    <div class="legend" id="legend"></div>
+    <div id="notes"></div>
+  </div>
+</main>
+
+<script>
+/* =====================================================================
+   SETTINGS  (the only place you need to edit)
+   ---------------------------------------------------------------------
+   SHEET_ID : the long code in your Google Sheet link, between /d/ and /edit
+   GID      : the number after gid= in the link of the tab you want to read
+   ===================================================================== */
+var CONFIG = {
+  SHEET_ID: "1SJMYTky9wZ0SXDTALpbrAGQoff0XqwI0zfa30RdSm18",
+  GID: "1466753186",
+  AUTO_REFRESH_MINUTES: 5,
+  PASS_MARK: 70,
+  TAGLINE: "Est. 1967 · Solan, Himachal Pradesh",
+  PREPARED_BY: "",
+  LOCATION_ORDER: ["Solan", "Rohru", "Exhibition"]
+};
+
+var MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+
+/* ---------- small helpers ---------- */
+function clean(s){ return String(s == null ? "" : s).replace(/\s+/g, " ").trim(); }
+function norm(s){ return String(s == null ? "" : s).toLowerCase().replace(/[^a-z0-9]/g, ""); }
+function esc(s){ return String(s == null ? "" : s).replace(/[&<>"']/g, function(c){ return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]; }); }
+function title(v){
+  return v.replace(/\w\S*/g, function(w){
+    return (w.length <= 4 && w === w.toUpperCase() && /[A-Z]/.test(w)) ? w : w.charAt(0).toUpperCase() + w.slice(1).toLowerCase();
+  });
+}
+/* Transparent alias lists: used ONLY for grouping on screen. The Google Sheet is never changed. */
+var LOC_ALIAS  = { "exhibiton": "Exhibition", "exibition": "Exhibition" };
+var DEPT_ALIAS = { "sale": "Sales", "repair & maintance": "Repair & Maintenance" };
+function normLoc(s){ var v = clean(s); if(!v) return ""; var k = v.toLowerCase(); return LOC_ALIAS[k] || title(v); }
+function normDept(s){ var v = clean(s); if(!v) return "Not specified"; var k = v.toLowerCase(); return DEPT_ALIAS[k] || title(v); }
+function avg(a){ return a.length ? a.reduce(function(s,x){ return s + x; }, 0) / a.length : null; }
+function fmt(v, d){ return v == null ? "–" : v.toFixed(d == null ? 1 : d) + "%"; }
+
+/* ---------- CSV reader (handles quotes and line breaks inside headers) ---------- */
+function parseCSV(text){
+  var rows = [], row = [], cell = "", q = false, i, c;
+  for(i = 0; i < text.length; i++){
+    c = text[i];
+    if(q){
+      if(c === '"'){ if(text[i+1] === '"'){ cell += '"'; i++; } else q = false; }
+      else cell += c;
+    } else if(c === '"'){ q = true; }
+    else if(c === ","){ row.push(cell); cell = ""; }
+    else if(c === "\n"){ row.push(cell); rows.push(row); row = []; cell = ""; }
+    else if(c !== "\r"){ cell += c; }
+  }
+  if(cell !== "" || row.length){ row.push(cell); rows.push(row); }
+  return rows;
+}
+
+/* ---------- Column mapping: reads YOUR headers as they are, no renaming needed ---------- */
+var COLS = {
+  id:       { label: "Employee ID",       need: true,  alias: ["employeeid","ecode","employeecode","empid","employeenumber"] },
+  name:     { label: "Employee Name",     need: false, alias: ["employeename","fullname","staffname","name"] },
+  dept:     { label: "Department",        need: false, alias: ["department","dept"] },
+  loc:      { label: "Location",          need: false, alias: ["location","loction","store","branch"] },
+  training: { label: "Training Name",     need: true,  alias: ["trainingname","trainingtopic","topic","training"] },
+  type:     { label: "Assessment type",   need: true,  alias: ["assessmenttype","assesmenttype","assessment","type"] },
+  date:     { label: "Training Date",     need: false, alias: ["trainingdate","date"] },
+  attended: { label: "Attended (Yes/No)", need: false, alias: ["attendedyesno","attended","attendance"] },
+  score:    { label: "Score (%)",         need: true,  alias: ["scorepct","scorepercent","score"] },
+  trainer:  { label: "Trainer Name",      need: false, alias: ["trainername","trainer"] }
+};
+function mapHeader(header){
+  var h = header.map(norm), map = {}, key, k, idx;
+  for(key in COLS){
+    idx = -1;
+    for(k = 0; k < COLS[key].alias.length && idx < 0; k++){ idx = h.indexOf(COLS[key].alias[k]); }
+    map[key] = idx;
+  }
+  return map;
+}
+function findHeader(matrix){
+  var i, m, hits, key;
+  for(i = 0; i < Math.min(matrix.length, 10); i++){
+    m = mapHeader(matrix[i]); hits = 0;
+    for(key in m){ if(m[key] >= 0) hits++; }
+    if(hits >= 4) return { row: i, map: m };
+  }
+  return null;
+}
+
+function parseDate(v){
+  var s = clean(v), m;
+  if(!s) return null;
+  m = s.match(/^(\d{1,2})[\/\-.](\d{1,2})[\/\-.](\d{4})/);
+  if(m){
+    var a = +m[1], b = +m[2];
+    if(b > 12 && a <= 12){ var t = a; a = b; b = t; }
+    if(a < 1 || a > 31 || b < 1 || b > 12) return null;
+    return new Date(Date.UTC(+m[3], b - 1, a));
+  }
+  m = s.match(/^(\d{4})-(\d{2})-(\d{2})/);
+  if(m) return new Date(Date.UTC(+m[1], +m[2] - 1, +m[3]));
+  return null;
+}
+function monthKey(d){ return d ? d.getUTCFullYear() + "-" + ("0" + (d.getUTCMonth() + 1)).slice(-2) : ""; }
+function monthLabel(k){ var p = k.split("-"); return MONTHS[+p[1] - 1] + " " + p[0]; }
+function dayLabel(d){ return ("0" + d.getUTCDate()).slice(-2) + " " + MONTHS[d.getUTCMonth()] + " " + d.getUTCFullYear(); }
+
+/* ---------- Turn CSV text into clean records + a list of data notes ---------- */
+function parseSheet(text){
+  var matrix = parseCSV(text.trim());
+  var hdr = findHeader(matrix);
+  if(!hdr) throw new Error("Could not find the expected column headings in this tab. Check the GID in the settings.");
+  var map = hdr.map, missing = [], key;
+  for(key in COLS){ if(map[key] < 0) missing.push({ key: key, label: COLS[key].label, need: COLS[key].need }); }
+
+  var notes = { rowsRead: 0, skippedNoTraining: 0, noScore: 0, absentZero: 0, conflict: 0, badScore: 0, badDate: 0, badType: 0, missingId: 0, duplicates: 0 };
+  var records = [], seen = {}, rawScores = [];
+
+  matrix.slice(hdr.row + 1).forEach(function(r){
+    if(!r.some(function(x){ return clean(x) !== ""; })) return;
+    notes.rowsRead++;
+    function get(k){ return map[k] >= 0 ? r[map[k]] : ""; }
+
+    var training = clean(get("training"));
+    if(!training){ notes.skippedNoTraining++; return; }
+
+    var typeRaw = clean(get("type")), type = /post/i.test(typeRaw) ? "Post" : (/pre/i.test(typeRaw) ? "Pre" : null);
+    if(!type) notes.badType++;
+
+    var scoreTxt = clean(get("score")).replace(/,/g, ""), score = null, hadPct = /%/.test(scoreTxt), rawN = null;
+    if(scoreTxt !== ""){
+      var n = parseFloat(scoreTxt.replace("%", ""));
+      if(isNaN(n)){ notes.badScore++; } else { score = n; rawN = n; }
+    } else { notes.noScore++; }
+
+    var dateTxt = clean(get("date")), dt = parseDate(dateTxt); if(dateTxt !== "" && !dt) notes.badDate++;
+    var att = clean(get("attended")), attended = att === "" ? null : (/^y/i.test(att) ? true : (/^n/i.test(att) ? false : null));
+    /* Absent employees often carry a 0% placeholder in the sheet. Absent is NOT a score of zero, so it is ignored. */
+    if(attended === false && score === 0){ score = null; rawN = null; notes.absentZero++; }
+    else if(attended === false && score != null){ notes.conflict++; }
+    var id = clean(get("id")).toUpperCase(); if(!id) notes.missingId++;
+
+    var rec = {
+      id: id, name: clean(get("name")), dept: normDept(get("dept")), loc: normLoc(get("loc")) || "Not specified",
+      training: training, tkey: training.toLowerCase(), type: type, date: dt, mkey: monthKey(dt),
+      attended: attended, score: score, trainer: clean(get("trainer"))
+    };
+    if(rawN !== null) rawScores.push({ rec: rec, n: rawN, pct: hadPct });
+    var dupKey = [rec.id || rec.name, rec.tkey, rec.type, rec.mkey, rec.loc].join("|");
+    if(type && (rec.id || rec.name)){ if(seen[dupKey]) notes.duplicates++; seen[dupKey] = true; }
+    records.push(rec);
+  });
+
+  /* If every score is a fraction (0 to 1) and none had a % sign, treat them as percentages. */
+  var allFractions = rawScores.length > 0 && rawScores.every(function(x){ return !x.pct && x.n <= 1; });
+  rawScores.forEach(function(x){
+    if(allFractions) x.rec.score = x.n * 100;
+    if(x.rec.score < 0 || x.rec.score > 100){ x.rec.score = null; notes.badScore++; }
+  });
+  return { records: records, notes: notes, missing: missing };
+}
+
+/* ---------- Calculations (one training, inside one location) ---------- */
+function idOf(r){ return r.id || ("NAME:" + r.name); }
+function summarize(rowsF, rowsAll, monthSel){
+  var pass = CONFIG.PASS_MARK;
+  var nominated = {}, attended = {}, attKnown = false;
+  rowsF.forEach(function(r){
+    nominated[idOf(r)] = 1;
+    if(r.attended !== null) attKnown = true;
+    if(r.attended === true) attended[idOf(r)] = 1;
+  });
+  var nomCount = Object.keys(nominated).length, attCount = Object.keys(attended).length;
+  var pre  = rowsF.filter(function(r){ return r.type === "Pre"  && r.score != null; });
+  var post = rowsF.filter(function(r){ return r.type === "Post" && r.score != null; });
+  var preAvg = avg(pre.map(function(r){ return r.score; })), postAvg = avg(post.map(function(r){ return r.score; }));
+  var postPass = post.length ? post.filter(function(r){ return r.score >= pass; }).length : null;
+  var prePass  = pre.length  ? pre.filter(function(r){ return r.score >= pass; }).length : null;
+  var attendedNoScore = rowsF.filter(function(r){ return r.attended === true && r.score == null; }).length;
+
+  /* Improvement: only employees with exactly one Pre and one Post score for this training. */
+  var by = {};
+  rowsAll.forEach(function(r){
+    if(r.score == null || !r.type) return;
+    var k = idOf(r); by[k] = by[k] || { pre: [], post: [] };
+    by[k][r.type === "Pre" ? "pre" : "post"].push(r);
+  });
+  var diffs = [], unmatched = 0, k;
+  for(k in by){
+    var p = by[k];
+    if(p.pre.length === 1 && p.post.length === 1){
+      if(monthSel === "all" || p.post[0].mkey === monthSel) diffs.push(p.post[0].score - p.pre[0].score);
+    } else if(p.pre.length > 1 || p.post.length > 1){ unmatched++; }
+  }
+  var hasPostRows = rowsAll.some(function(r){ return r.type === "Post"; });
+  var postIds = {}, preIds = {}, pendingPost = 0;
+  post.forEach(function(r){ postIds[idOf(r)] = 1; });
+  pre.forEach(function(r){ preIds[idOf(r)] = 1; });
+  if(hasPostRows){ for(k in preIds){ if(!postIds[k]) pendingPost++; } }
+
+  /* Department table (each employee counted once per department). */
+  var dm = {};
+  rowsF.forEach(function(r){
+    var d = dm[r.dept] = dm[r.dept] || { ids: {}, pre: [], post: [] };
+    d.ids[idOf(r)] = 1;
+    if(r.score != null && r.type === "Pre") d.pre.push(r.score);
+    if(r.score != null && r.type === "Post") d.post.push(r.score);
+  });
+  var depts = Object.keys(dm).sort().map(function(n){
+    return { name: n, people: Object.keys(dm[n].ids).length, pre: avg(dm[n].pre), post: avg(dm[n].post) };
+  });
+
+  var latest = null;
+  rowsF.forEach(function(r){ if(r.date && (!latest || r.date > latest)) latest = r.date; });
+
+  return {
+    nominated: nomCount, attended: attCount,
+    attPct: attKnown && nomCount ? attCount / nomCount * 100 : null,
+    preAvg: preAvg, postAvg: postAvg, preN: pre.length, postN: post.length,
+    prePassPct: prePass == null ? null : prePass / pre.length * 100,
+    postPassPct: postPass == null ? null : postPass / post.length * 100,
+    improvement: diffs.length ? avg(diffs) : null, pairs: diffs.length, unmatched: unmatched,
+    attendedNoScore: attendedNoScore, pendingPost: pendingPost,
+    hasPre: rowsAll.some(function(r){ return r.type === "Pre"; }),
+    hasPost: hasPostRows, depts: depts, latest: latest
+  };
+}
+
+function buildLocation(records, loc, monthSel){
+  var rowsLoc = records.filter(function(r){ return r.loc === loc; });
+  var groups = {};
+  rowsLoc.forEach(function(r){ (groups[r.tkey] = groups[r.tkey] || []).push(r); });
+  var out = [];
+  Object.keys(groups).forEach(function(tk){
+    var all = groups[tk];
+    var f = monthSel === "all" ? all : all.filter(function(r){ return r.mkey === monthSel; });
+    if(!f.length) return;
+    var s = summarize(f, all, monthSel);
+    s.name = all[0].training; s.key = loc + "|" + tk;
+    out.push(s);
+  });
+  out.sort(function(a, b){ return (b.latest ? b.latest.getTime() : 0) - (a.latest ? a.latest.getTime() : 0); });
+  var people = {}; rowsLoc.forEach(function(r){ people[idOf(r)] = 1; });
+  return { trainings: out, people: Object.keys(people).length };
+}
+
+/* =====================================================================
+   SCREEN  (runs only in a browser)
+   ===================================================================== */
+var STATE = { data: null, loc: null, month: "all", open: {}, lastOk: null, loading: false, error: "" };
+var CSV_URL = "https://docs.google.com/spreadsheets/d/" + CONFIG.SHEET_ID + "/export?format=csv&gid=" + CONFIG.GID;
+
+function $(id){ return document.getElementById(id); }
+
+function locations(){
+  var seen = {}, list = [];
+  STATE.data.records.forEach(function(r){ if(!seen[r.loc]){ seen[r.loc] = 1; list.push(r.loc); } });
+  list.sort(function(a, b){
+    var ia = CONFIG.LOCATION_ORDER.indexOf(a), ib = CONFIG.LOCATION_ORDER.indexOf(b);
+    if(ia < 0) ia = 99;
+    if(ib < 0) ib = 99;
+    return ia - ib || a.localeCompare(b);
+  });
+  return list;
+}
+function monthsList(){
+  var seen = {}, list = [];
+  STATE.data.records.forEach(function(r){ if(r.mkey && !seen[r.mkey]){ seen[r.mkey] = 1; list.push(r.mkey); } });
+  return list.sort().reverse();
+}
+function timeTxt(d){ return d.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }); }
+
+function renderStatus(){
+  var dot = $("dot"), txt = $("statusText");
+  dot.className = "dot" + (STATE.loading ? " loading" : (STATE.error ? " error" : ""));
+  if(STATE.loading){ txt.textContent = "Refreshing…"; }
+  else if(STATE.error){ txt.textContent = (STATE.lastOk ? "Could not refresh – showing data from " + timeTxt(STATE.lastOk) + ". " : "Could not load data. ") + STATE.error; }
+  else if(STATE.lastOk){ txt.textContent = "Updated " + timeTxt(STATE.lastOk) + " · refreshes every " + CONFIG.AUTO_REFRESH_MINUTES + " min"; }
+  var btn = $("refreshBtn");
+  btn.disabled = STATE.loading;
+  btn.className = "btn" + (STATE.loading ? " spin" : "");
+  $("refreshLabel").textContent = STATE.loading ? "Refreshing…" : (STATE.error ? "Try again" : "Refresh data");
+}
+
+function renderAll(){
+  renderStatus();
+  $("tagline").textContent = CONFIG.TAGLINE;
+  if(!STATE.data){ return; }
+  var recs = STATE.data.records, locs = locations();
+  if(!STATE.loc || locs.indexOf(STATE.loc) < 0) STATE.loc = locs[0] || null;
+
+  /* period line */
+  var dates = recs.filter(function(r){ return r.date; }).map(function(r){ return r.date; }).sort(function(a, b){ return a - b; });
+  var per = dates.length ? "Period: " + dayLabel(dates[0]) + " – " + dayLabel(dates[dates.length - 1]) : "Period: dates not available";
+  if(CONFIG.PREPARED_BY) per += "  ·  Prepared by: " + CONFIG.PREPARED_BY;
+  $("period").textContent = per;
+
+  /* month filter */
+  var ms = monthsList(), sel = $("monthSel");
+  if(STATE.month !== "all" && ms.indexOf(STATE.month) < 0) STATE.month = "all";
+  var allLabel = "All months";
+  if(ms.length === 1) allLabel = "All months (" + monthLabel(ms[0]) + ")";
+  if(ms.length > 1) allLabel = "All months (" + MONTHS[+ms[ms.length - 1].split("-")[1] - 1] + "–" + monthLabel(ms[0]) + ")";
+  sel.innerHTML = '<option value="all">' + esc(allLabel) + '</option>' + ms.map(function(k){ return '<option value="' + k + '">' + esc(monthLabel(k)) + '</option>'; }).join("");
+  sel.value = STATE.month;
+  $("filterWrap").hidden = !ms.length;
+  $("hint").textContent = STATE.month === "all"
+    ? "Showing all months. New months appear here automatically as trainings are added in the Google Sheet."
+    : "Showing " + monthLabel(STATE.month) + " only.";
+
+  /* warnings for missing columns */
+  var w = "";
+  STATE.data.missing.forEach(function(m){
+    w += '<div class="banner ' + (m.need ? "bad" : "") + '"><b>Column not found: ' + esc(m.label) + '.</b> ' +
+      (m.need ? "Some numbers cannot be calculated until this column is added to the sheet tab." : "The related detail is shown as not available.") + '</div>';
+  });
+  $("warnings").innerHTML = w;
+
+  /* tabs */
+  $("tabs").innerHTML = locs.map(function(l){
+    var b = buildLocation(recs, l, STATE.month);
+    return '<button class="tab" role="tab" aria-selected="' + (l === STATE.loc) + '" data-loc="' + esc(l) + '"><b>' + esc(l) + '</b><span>' + b.trainings.length + ' training' + (b.trainings.length === 1 ? "" : "s") + '</span></button>';
+  }).join("");
+  Array.prototype.forEach.call($("tabs").children, function(btn){
+    btn.onclick = function(){ STATE.loc = btn.getAttribute("data-loc"); renderAll(); };
+  });
+
+  /* content */
+  var c = $("content");
+  if(!STATE.loc){ c.innerHTML = '<div class="empty">No training records were found in this tab yet.</div>'; }
+  else {
+    var b = buildLocation(recs, STATE.loc, STATE.month);
+    var html = '<h3 class="loc-title">' + esc(STATE.loc) + '</h3>' +
+      '<p class="loc-desc">' + b.trainings.length + ' training' + (b.trainings.length === 1 ? "" : "s") + ' · ' + b.people + ' employee' + (b.people === 1 ? "" : "s") +
+      '. Each employee is counted once, even if they did several trainings or both Pre and Post.</p>';
+    if(!b.trainings.length){ html += '<div class="empty">No trainings recorded for ' + esc(STATE.loc) + (STATE.month === "all" ? "" : " in " + esc(monthLabel(STATE.month))) + '.</div>'; }
+    b.trainings.forEach(function(s){ html += cardHtml(s); });
+    c.innerHTML = html;
+    Array.prototype.forEach.call(c.querySelectorAll("details.card"), function(d){
+      d.addEventListener("toggle", function(){ STATE.open[d.getAttribute("data-key")] = d.open; });
+    });
+  }
+
+  $("legend").innerHTML = 'Colour guide: <b class="g">Green</b> = average at or above ' + CONFIG.PASS_MARK + '% (Pass) · <b class="r">Red</b> = below ' + CONFIG.PASS_MARK +
+    '% (Improvement required) · "–" or "Not assessed" = no score recorded (never treated as zero).';
+  renderNotes();
+}
+
+function cell(k, v, x, cls){ return '<div class="cell"><div class="k">' + esc(k) + '</div><div class="v ' + cls + '">' + esc(v) + '</div><div class="x">' + esc(x) + '</div></div>'; }
+
+function cardHtml(s){
+  var badge, badgeCls;
+  if(s.preN === 0 && s.postN === 0){ badge = "Assessment pending"; badgeCls = "wait"; }
+  else if(s.hasPre && s.hasPost){ badge = "Pre + Post"; badgeCls = "done"; }
+  else if(s.hasPre){ badge = "Post pending"; badgeCls = "wait"; }
+  else if(s.hasPost){ badge = "Post only"; badgeCls = "plain"; }
+  else { badge = "Type not recognised"; badgeCls = "plain"; }
+
+  var shown = s.postAvg != null ? { v: s.postAvg, l: "Post avg" } : (s.preAvg != null ? { v: s.preAvg, l: "Pre avg" } : null);
+  var cls = shown ? (shown.v >= CONFIG.PASS_MARK ? "good" : "bad") : "none";
+  var verdict = shown ? (shown.v >= CONFIG.PASS_MARK ? "Pass" : "Improvement required") : "";
+  var scoreHtml = shown
+    ? '<div class="n">' + shown.v.toFixed(1) + '%</div><div class="l">' + shown.l + ' · ' + verdict + '</div>'
+    : '<div class="n">Not assessed</div>';
+
+  var attTxt = s.attPct == null ? "Attendance not recorded yet" : s.attended + " of " + s.nominated + " attended";
+  var open = STATE.open[s.key] ? " open" : "";
+  var h = '<div class="row-head"><span class="badge ' + badgeCls + '">' + badge + '</span><span class="when">' + (s.latest ? dayLabel(s.latest) : "Date not available") + '</span><span class="pill">' + s.nominated + ' employee' + (s.nominated === 1 ? "" : "s") + '</span></div>';
+  h += '<details class="card" data-key="' + esc(s.key) + '"' + open + '><summary><div class="sum-main"><div class="t">' + esc(s.name) + '</div><div class="s">' + attTxt + '</div></div><div class="score ' + cls + '">' + scoreHtml + '</div><span class="caret">▾</span></summary><div class="detail">';
+
+  var imp = s.improvement == null ? "–" : (s.improvement >= 0 ? "+" : "") + s.improvement.toFixed(1) + " pts";
+  h += '<div class="grid">' +
+    cell("Pre average", fmt(s.preAvg), s.preN + " scored", s.preAvg != null && s.preAvg < CONFIG.PASS_MARK ? "bad" : "") +
+    cell("Post average", fmt(s.postAvg), s.postN + " scored", s.postAvg != null && s.postAvg < CONFIG.PASS_MARK ? "bad" : "") +
+    cell("Improvement", imp, s.pairs + " matched employee" + (s.pairs === 1 ? "" : "s"), s.improvement != null ? (s.improvement >= 0 ? "good" : "bad") : "") +
+    cell("Attendance", s.attPct == null ? "–" : fmt(s.attPct, 0), s.attended + " of " + s.nominated, "") +
+    cell("Post pass rate", fmt(s.postPassPct, 0), "score " + CONFIG.PASS_MARK + "% or more", "") +
+    cell("Attended, no score", String(s.attendedNoScore), "records", "") + '</div>';
+
+  if(s.hasPost && s.pendingPost > 0) h += '<p class="note">' + s.pendingPost + ' employee' + (s.pendingPost === 1 ? " has" : "s have") + ' a Pre score but no Post score yet (Post pending).</p>';
+  if(s.unmatched > 0) h += '<p class="note">' + s.unmatched + ' employee' + (s.unmatched === 1 ? " has" : "s have") + ' more than one Pre or Post record for this training – left out of Improvement. Please verify in the sheet.</p>';
+  if(s.improvement == null) h += '<p class="note">Improvement is shown only when the same employee has one Pre score and one Post score for this training.</p>';
+
+  h += '<table class="dept"><thead><tr><th>Department</th><th>Employees</th><th>Pre avg</th><th>Post avg</th></tr></thead><tbody>' +
+    s.depts.map(function(d){ return '<tr><td>' + esc(d.name) + '</td><td>' + d.people + '</td><td>' + fmt(d.pre) + '</td><td>' + fmt(d.post) + '</td></tr>'; }).join("") +
+    '</tbody></table></div></details>';
+  return h;
+}
+
+function renderNotes(){
+  var n = STATE.data.notes, items = [];
+  items.push(n.rowsRead + " rows read from the sheet.");
+  if(n.skippedNoTraining) items.push(n.skippedNoTraining + " rows skipped because the Training Name is empty.");
+  if(n.noScore) items.push(n.noScore + " rows have no score – shown as Not assessed (not counted as Fail or zero).");
+  if(n.absentZero) items.push(n.absentZero + " rows are marked Not Attended with a 0% placeholder score – treated as absent, not as a score of zero, and left out of averages.");
+  if(n.conflict) items.push(n.conflict + " rows are marked Not Attended but still have a score above 0 – kept as recorded; please verify in the sheet.");
+  if(n.badScore) items.push(n.badScore + " rows have an invalid score (not a number, or outside 0–100) – ignored.");
+  if(n.badDate) items.push(n.badDate + " rows have a date that could not be read.");
+  if(n.badType) items.push(n.badType + " rows have an Assessment type that is not Pre or Post.");
+  if(n.missingId) items.push(n.missingId + " rows have no Employee ID (matched by name instead).");
+  if(n.duplicates) items.push(n.duplicates + " possible duplicate records (same employee, training, Pre/Post, month and location) – please verify in the sheet. Nothing was deleted.");
+  $("notes").innerHTML = '<details class="notes"><summary>Data notes</summary><ul>' + items.map(function(t){ return "<li>" + esc(t) + "</li>"; }).join("") + '</ul></details>';
+}
+
+function load(){
+  if(STATE.loading) return;
+  STATE.loading = true; STATE.error = ""; renderStatus();
+  fetch(CSV_URL + "&_=" + Date.now(), { cache: "no-store" })
+    .then(function(res){ if(!res.ok) throw new Error("The sheet answered with error " + res.status + "."); return res.text(); })
+    .then(function(text){
+      if(/^\s*<(!doctype|html)/i.test(text)) throw new Error('The sheet is not shared as "Anyone with the link".');
+      STATE.data = parseSheet(text); STATE.lastOk = new Date();
+    })
+    .catch(function(e){ STATE.error = e.message || "Unknown error."; })
+    .then(function(){
+      STATE.loading = false;
+      if(!STATE.data){
+        $("period").textContent = "Could not load data";
+        $("content").innerHTML = '<div class="banner bad"><b>Dashboard could not read the Google Sheet.</b><br>' + esc(STATE.error) + '<br>Open this page from its https:// link (not a downloaded file), check the sheet sharing, then press Try again.</div>';
+        renderStatus();
+      } else renderAll();
+    });
+}
+
+if(typeof document !== "undefined" && document.getElementById("content")){
+  $("tagline").textContent = CONFIG.TAGLINE;
+  $("monthSel").onchange = function(){ STATE.month = this.value; renderAll(); };
+  $("refreshBtn").onclick = load;
+  document.addEventListener("visibilitychange", function(){
+    if(!document.hidden && STATE.lastOk && (Date.now() - STATE.lastOk.getTime()) > 2 * 60000) load();
+  });
+  setInterval(load, CONFIG.AUTO_REFRESH_MINUTES * 60000);
+  load();
+}
+if(typeof module !== "undefined"){ module.exports = { parseSheet: parseSheet, buildLocation: buildLocation, summarize: summarize, CONFIG: CONFIG }; }
+</script>
+</body>
+</html>
