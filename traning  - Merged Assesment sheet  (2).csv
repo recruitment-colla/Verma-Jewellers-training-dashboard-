@@ -1,0 +1,381 @@
+Employee ID,Employee Name,Department,Location,Training Name,Assessment type,Training Date,"Attended
+(Yes/No)","Correct
+Answers","Total
+Questions",Score (%),Pass / Fail,Trainer Name
+VJS0205,Shruti Verma,Sales,Rohru,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,16/07/2026,Yes,15,15,100.0%,PASS,Ranvir singh 
+VJS0276,Sweety Dharta,Sales,Rohru,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,16/07/2026,NO,0,15,0.0%,FAIL,Ranvir singh 
+VJS0211,Shivani Darta,Sales,Rohru,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,16/07/2026,Yes,15,15,100.0%,PASS,Ranvir singh 
+VJS0004,Sheesh Ram Thakur,Sales,Exhibition,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,17/07/2026,NO,0,15,0.0%,FAIL,Sheesh Ram Thakur 
+VJS0263,Nikhil Ramketa,Accounts,Rohru,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,16/07/2026,Yes,13,15,86.7%,PASS,Ranvir singh 
+VJS0033,Jitender Sharma,Sales,Rohru,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,16/07/2026,Yes,12,15,80.0%,PASS,Ranvir singh 
+VJS0245,Muskan .,Sales,Rohru,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,16/07/2026,Yes,15,15,100.0%,PASS,Ranvir singh 
+VJS0244,Preeti .,Sales,Rohru,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,16/07/2026,Yes,12,15,80.0%,PASS,Ranvir singh 
+VJS0206,Nek Raj Ranta,Sales,Rohru,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,16/07/2026,Yes,12,15,80.0%,PASS,Ranvir singh 
+VJS0014,Varun Garg,Wedding,Solan,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,18/07/2026,NO,0,15,0.0%,FAIL,Sheesh Ram Thakur 
+VJS0036,Vaishali Thakur,Sales,Exhibition,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,19/07/2026,NO,0,15,0.0%,FAIL,Sheesh Ram Thakur 
+VJS0235,Rajeev Kumar,Sales,Exhibition,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,19/07/2026,NO,0,15,0.0%,FAIL,Sheesh Ram Thakur 
+VJS0064,Sangeeta Kashyap,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,16/07/2026,Yes,12,15,80.0%,PASS,Pankaj Vyas
+VJS0277,Babita Babita,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,16/07/2026,Yes,12,15,80.0%,PASS,Pankaj Vyas
+VJS0005,Naresh Dogra,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,19/07/2026,NO,0,15,0.0%,FAIL,Pankaj Vyas
+VJS0337,Kamal Jeet,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,19/07/2026,NO,0,15,0.0%,FAIL,Pankaj Vyas
+VJS0292,Nihal Kashyap,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,19/07/2026,NO,0,15,0.0%,FAIL,Pankaj Vyas
+VJS0252,Kritika Panwar,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,19/07/2026,NO,0,15,0.0%,FAIL,Pankaj Vyas
+VJS0295,Arpit Thakur,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,16/07/2026,Yes,14,15,93.3%,PASS,Pankaj Vyas
+VJS0285,Aditya  Aditya,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,16/07/2026,Yes,15,15,100.0%,PASS,Pankaj Vyas
+VJS0051,Meera Devi,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,19/07/2026,NO,0,15,0.0%,FAIL,Pankaj Vyas
+VJS0265,Geeta Thakur,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,19/07/2026,NO,0,15,0.0%,FAIL,Pankaj Vyas
+VJS0207,Deepanshu .,Accounts,Rohru,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,16/07/2026,Yes,15,15,100.0%,PASS,Ranvir singh 
+VJS0044,Rajat Kumar,Sales,Rohru,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,16/07/2026,Yes,15,15,100.0%,PASS,Ranvir singh 
+VJS0119,Bhupender Singh,Sales,Exhibition,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,16/07/2026,Yes,12,15,80.0%,PASS,Sheesh Ram Thakur 
+VJS0049,Sunil Attri,Sales,Exhibition,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,16/07/2026,Yes,13,15,86.7%,PASS,Sheesh Ram Thakur 
+VJS0115,Abhishek Abhi Sharma,Sales,Exhibition,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,16/07/2026,Yes,13,15,86.7%,PASS,Sheesh Ram Thakur 
+VJS0171,Rahul Thakur,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,16/07/2026,Yes,14,15,93.3%,PASS,Sheesh Ram Thakur 
+VJS0234,Mrinal .,Sales,Exhibition,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,16/07/2026,Yes,15,15,100.0%,PASS,Ranvir singh 
+VJS0013,Tapan Thakur,Sales,Exhibition,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,16/07/2026,Yes,14,15,93.3%,PASS,Sheesh Ram Thakur 
+VJS0113,Dinesh Kumar,Sales,Exhibition,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,16/07/2026,Yes,15,15,100.0%,PASS,Sheesh Ram Thakur 
+VJS0039,Shalini Aulakh,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,17/07/2026,Yes,14,15,93.3%,PASS,Pankaj Vyas
+VJS0181,Ranjana Chauhan,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,16/07/2026,Yes,13,15,86.7%,PASS,Pankaj Vyas
+VJS0306,Jitender Kashyap,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,16/07/2026,Yes,12,15,80.0%,PASS,Pankaj Vyas
+VJS0041,Ajay Thakur,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,16/07/2026,Yes,15,15,100.0%,PASS,Pankaj Vyas
+VJS0228,Muskan .,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,16/07/2026,Yes,12,15,80.0%,PASS,Pankaj Vyas
+VJS0348,Puneet Verma,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,16/07/2026,Yes,12,15,80.0%,PASS,Pankaj Vyas
+VJS0338,Manoj Kumar,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,16/07/2026,Yes,12,15,80.0%,PASS,Pankaj Vyas
+VJS0343,Gagan Kumar,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,16/07/2026,Yes,12,15,80.0%,PASS,Pankaj Vyas
+VJS0040,Mona .,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,19/07/2026,NO,0,15,0.0%,FAIL,Pankaj Vyas
+VJS0006,Sunil Dutt,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,19/07/2026,NO,0,15,0.0%,FAIL,Pankaj Vyas
+VJS0227,Virender Kumar,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,19/07/2026,Yes,19,15,126.7%,PASS,Pankaj Vyas
+VJS0010,Surender Singh,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,19/07/2026,NO,0,15,0.0%,FAIL,Pankaj Vyas
+VJS0048,Vandana Devi,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,16/07/2026,Yes,12,15,80.0%,PASS,Pankaj Vyas
+VJS0255,Richu Kumari,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,16/07/2026,Yes,15,15,100.0%,PASS,Pankaj Vyas
+VJS0029,Rati Ram,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,16/07/2026,Yes,13,15,86.7%,PASS,Pankaj Vyas
+VJS0001,Madan .,Sales,Rohru,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,16/07/2026,Yes,15,15,100.0%,PASS,Ranvir singh 
+VJS0232,Deepika Chauhan,Sales,Rohru,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,16/07/2026,Yes,14,15,93.3%,PASS,Ranvir singh 
+VJS0192,Richu Duggal .,Sales,Rohru,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,16/07/2026,Yes,14,15,93.3%,PASS,Ranvir singh 
+VJS0247,Munish Kumar,BTL,Rohru,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,16/07/2026,Yes,15,15,100.0%,PASS,Pankaj Vyas
+VJS0329,Narender,BTL,Rohru,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,16/07/2026,Yes,13,15,86.7%,PASS,Ranvir singh 
+VJS0114,Monika Mehta,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,16/07/2026,Yes,7,15,46.7%,FAIL,Pankaj Vyas
+VJS0065,Kiran Sharma,Sales,Rohru,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,16/07/2026,Yes,10,15,66.7%,FAIL,Ranvir singh 
+VJS0349,Shruti Falta,Sales,Rohru,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,16/07/2026,Yes,10,15,66.7%,FAIL,Ranvir singh 
+VJS0163,Sonal Chauhan,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,16/07/2026,Yes,10,15,66.7%,FAIL,Pankaj Vyas
+VJS0202,Vipul Sharma,Sales,Rohru,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,16/07/2026,Yes,11,15,73.3%,FAIL,Ranvir singh 
+VJS0210,Saurav Dharta,Sales,Rohru,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,16/07/2026,Yes,11,15,73.3%,FAIL,Ranvir singh 
+VJS0298,Kajal,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,16/07/2026,Yes,11,15,73.3%,FAIL,Pankaj Vyas
+VJS0030,Reena Devi,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,16/07/2026,Yes,11,15,73.3%,FAIL,Pankaj Vyas
+VJS0047,Govind Verma,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,16/07/2026,Yes,11,15,73.3%,FAIL,Pankaj Vyas
+VJS0011,Rajesh Kumar,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,16/07/2026,Yes,11,15,73.3%,FAIL,Pankaj Vyas
+VJS0278,Sarla Devi,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,16/07/2026,Yes,11,15,73.3%,FAIL,Pankaj Vyas
+VJS0038,Sneha Thakur,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,16/07/2026,Yes,11,15,73.3%,FAIL,Pankaj Vyas
+VJS0302,Diwakar Diwakar,Accounts,Solan,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,16/07/2026,Yes,11,15,73.3%,FAIL,Pankaj Vyas
+VJS0054,Aruna Devi,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Pre Assesment ,16/07/2026,Yes,11,15,73.3%,FAIL,Pankaj Vyas
+VJS0263,Nikhil Ramketa,Accounts,Rohru,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,22/07/2026,Yes,19,20,95.0%,PASS,Ranvir singh 
+VJS0205,Shruti Verma,Sales,Rohru,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,22/07/2026,Yes,20,20,100.0%,PASS,Ranvir singh 
+VJS0277,Babita Babita,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,22/07/2026,Yes,18,20,90.0%,PASS,Pankaj Vyas
+VJS0278,Sarla Devi,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,22/07/2026,Yes,17,20,85.0%,PASS,Pankaj Vyas
+VJS0181,Ranjana Chauhan,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,22/07/2026,Yes,20,20,100.0%,PASS,Pankaj Vyas
+VJS0255,Richu Kumari,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,22/07/2026,Yes,19,20,95.0%,PASS,Pankaj Vyas
+VJS0228,Muskan .,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,22/07/2026,Yes,19,20,95.0%,PASS,Pankaj Vyas
+VJS0285,Aditya  Aditya,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,22/07/2026,Yes,20,20,100.0%,PASS,Pankaj Vyas
+VJS0343,Gagan Kumar,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,22/07/2026,Yes,20,20,100.0%,PASS,Pankaj Vyas
+VJS0337,Kamal Jeet,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,22/07/2026,Yes,19,20,95.0%,PASS,Pankaj Vyas
+VJS0252,Kritika Panwar,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,22/07/2026,Yes,20,20,100.0%,PASS,Pankaj Vyas
+VJS0005,Naresh Dogra,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,22/07/2026,Yes,20,20,100.0%,PASS,Pankaj Vyas
+VJS0298,Kajal,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,22/07/2026,Yes,20,20,100.0%,PASS,Pankaj Vyas
+VJS0048,Vandana Devi,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,22/07/2026,Yes,20,20,100.0%,PASS,Pankaj Vyas
+VJS0030,Reena Devi,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,22/07/2026,Yes,20,20,100.0%,PASS,Pankaj Vyas
+VJS0054,Aruna Devi,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,22/07/2026,Yes,20,20,100.0%,PASS,Pankaj Vyas
+VJS0016,Raghuveer Singh Singh,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,22/07/2026,Yes,20,20,100.0%,PASS,Pankaj Vyas
+VJS0014,Varun Garg,Wedding,Solan,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,22/07/2026,Yes,19,20,95.0%,PASS,Sheesh Ram Thakur 
+VJS0013,Tapan Thakur,Sales,Exhibition,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,22/07/2026,Yes,20,20,100.0%,PASS,Sheesh Ram Thakur 
+VJS0040,Mona .,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,22/07/2026,Yes,17,20,85.0%,PASS,Pankaj Vyas
+VJS0051,Meera Devi,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,22/07/2026,Yes,20,20,100.0%,PASS,Pankaj Vyas
+VJS0348,Puneet Verma,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,22/07/2026,Yes,20,20,100.0%,PASS,Pankaj Vyas
+VJS0306,Jitender Kashyap,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,22/07/2026,Yes,20,20,100.0%,PASS,Pankaj Vyas
+VJS0295,Arpit Thakur,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,23/07/2026,Yes,19,20,95.0%,PASS,Pankaj Vyas
+VJS0047,Govind Verma,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,23/07/2026,NO,0,20,0.0%,FAIL,Pankaj Vyas
+VJS0210,Saurav Dharta,Sales,Rohru,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,23/07/2026,Yes,19,20,95.0%,PASS,Ranvir singh 
+VJS0029,Rati Ram,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,23/07/2026,Yes,20,20,100.0%,PASS,Pankaj Vyas
+VJS0245,Muskan .,Sales,Rohru,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,23/07/2026,Yes,19,20,95.0%,PASS,Ranvir singh 
+VJS0244,Preeti .,Sales,Rohru,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,23/07/2026,Yes,20,20,100.0%,PASS,Ranvir singh 
+VJS0349,Shruti Falta,Sales,Rohru,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,23/07/2026,Yes,19,20,95.0%,PASS,Ranvir singh 
+VJS0206,Nek Raj Ranta,Sales,Rohru,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,23/07/2026,Yes,20,20,100.0%,PASS,Ranvir singh 
+VJS0227,Virender Kumar,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,23/07/2026,Yes,16,20,80.0%,PASS,Pankaj Vyas
+VJS0114,Monika Mehta,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,23/07/2026,Yes,19,20,95.0%,PASS,Pankaj Vyas
+VJS0041,Ajay Thakur,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,23/07/2026,NO,0,20,0.0%,FAIL,Pankaj Vyas
+VJS0033,Jitender Sharma,Sales,Rohru,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,23/07/2026,Yes,18,20,90.0%,PASS,Ranvir singh 
+VJS0338,Manoj Kumar,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,23/07/2026,Yes,20,20,100.0%,PASS,Pankaj Vyas
+VJS0044,Rajat Kumar,Sales,Rohru,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,23/07/2026,Yes,20,20,100.0%,PASS,Ranvir singh 
+VJS0207,Deepanshu .,Accounts,Rohru,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,23/07/2026,Yes,19,20,95.0%,PASS,Ranvir singh 
+VJS0247,Munish Kumar,BTL,Rohru,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,23/07/2026,Yes,20,20,100.0%,PASS,Ranvir singh 
+VJS0211,Shivani Darta,Sales,Rohru,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,23/07/2026,Yes,20,20,100.0%,PASS,Ranvir singh 
+VJS0202,Vipul Sharma,Sales,Rohru,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,23/07/2026,Yes,20,20,100.0%,PASS,Ranvir singh 
+VJS0163,Sonal Chauhan,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,23/07/2026,NO,0,20,0.0%,FAIL,Pankaj Vyas
+VJS0329,Narender,BTL,Rohru,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,23/07/2026,NO,0,20,0.0%,FAIL,Ranvir singh 
+VJS0296,Rakesh Kumar,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,23/07/2026,Yes,20,20,100.0%,PASS,Pankaj Vyas
+VJS0004,Sheesh Ram Thakur,Sales,Exhibition,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,23/07/2026,NO,0,20,0.0%,FAIL,Sheesh Ram Thakur 
+VJS0292,Nihal Kashyap,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,23/07/2026,NO,0,20,0.0%,FAIL,Pankaj Vyas
+VJS0049,Sunil Attri,Sales,Exhibition,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,23/07/2026,Yes,20,20,100.0%,PASS,Sheesh Ram Thakur 
+VJS0115,Abhishek Abhi Sharma,Sales,Exhibition,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,23/07/2026,Yes,19,20,95.0%,PASS,Sheesh Ram Thakur 
+VJS0006,Sunil Dutt,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,23/07/2026,NO,0,20,0.0%,FAIL,Pankaj Vyas
+VJS0234,Mrinal .,Sales,Exhibition,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,23/07/2026,Yes,20,20,100.0%,PASS,Sheesh Ram Thakur 
+VJS0010,Surender Singh,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,23/07/2026,NO,0,20,0.0%,FAIL,Pankaj Vyas
+VJS0039,Shalini Aulakh,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,23/07/2026,Yes,20,20,100.0%,PASS,Pankaj Vyas
+VJS0038,Sneha Thakur,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,23/07/2026,Yes,20,20,100.0%,PASS,Pankaj Vyas
+VJS0119,Bhupender Singh,Sales,Exhibition,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,23/07/2026,Yes,12,20,60.0%,FAIL,Sheesh Ram Thakur 
+VJS0235,Rajeev Kumar,Sales,Exhibition,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,23/07/2026,Yes,12,20,60.0%,FAIL,Sheesh Ram Thakur 
+VJS0001,Madan .,Sales,Rohru,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,23/07/2026,Yes,19,20,95.0%,PASS,Ranvir singh 
+VJS0192,Richu Duggal .,Sales,Rohru,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,23/07/2026,Yes,19,20,95.0%,PASS,Ranvir singh 
+VJS0011,Rajesh Kumar,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,23/07/2026,Yes,13,20,65.0%,FAIL,Pankaj Vyas
+VJS0276,Sweety Dharta,Sales,Rohru,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,23/07/2026,Yes,16,20,80.0%,PASS,Ranvir singh 
+VJS0232,Deepika Chauhan,Sales,Rohru,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,23/07/2026,Yes,14,20,70.0%,PASS,Ranvir singh 
+VJS0064,Sangeeta Kashyap,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,23/07/2026,Yes,14,20,70.0%,PASS,Pankaj Vyas
+VJS0065,Kiran Sharma,Sales,Rohru,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,23/07/2026,Yes,15,20,75.0%,PASS,Ranvir singh 
+VJS0265,Geeta Thakur,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,23/07/2026,Yes,20,20,100.0%,PASS,Pankaj Vyas
+VJS0171,Rahul Thakur,Sales,Solan,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,23/07/2026,Yes,15,20,75.0%,PASS,Sheesh Ram Thakur 
+VJS0113,Dinesh Kumar,Sales,Exhibition,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,23/07/2026,Yes,15,20,75.0%,PASS,Sheesh Ram Thakur 
+VJS0036,Vaishali Thakur,Sales,Exhibition,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,23/07/2026,Yes,17,20,85.0%,PASS,Sheesh Ram Thakur 
+VJS0300,Dishant Thakur,Sales,Exhibition,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,23/07/2026,Yes,16,20,80.0%,PASS,Sheesh Ram Thakur 
+VJS0046,Bhagender Sharma,Admin OFC,Exhibition,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,23/07/2026,Yes,20,20,100.0%,PASS,Sheesh Ram Thakur 
+VJS0112,Dikshit .,Accounts,Exhibition,"Orientation, Brand Heritage & CX Fundamentals",Post Assesment ,23/07/2026,Yes,18,20,90.0%,PASS,Sheesh Ram Thakur 
+VJS0065,Kiran Sharma,Sales,Rohru,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,Yes,20,20,100.0%,PASS,Ranvir singh 
+VJS0044,Rajat Kumar,Sales,Rohru,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,Yes,20,20,100.0%,PASS,Ranvir singh 
+VJS0232,Deepika Chauhan,Sales,Rohru,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,Yes,20,20,100.0%,PASS,Ranvir singh 
+VJS0206,Nek Raj Ranta,Sales,Rohru,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,Yes,20,20,100.0%,PASS,Ranvir singh 
+VJS0033,Jitender Sharma,Sales,Rohru,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,Yes,19,20,95.0%,PASS,Ranvir singh 
+VJS0192,Richu Duggal .,Sales,Rohru,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,Yes,18,20,90.0%,PASS,Ranvir singh 
+VJS0205,Shruti Verma,Sales,Rohru,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,Yes,19,20,95.0%,PASS,Ranvir singh 
+VJS0210,Saurav Dharta,Sales,Rohru,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,No,0,20,0.0%,FAIL,Ranvir singh 
+VJS0202,Vipul Sharma,Sales,Rohru,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,Yes,11,20,55.0%,FAIL,Ranvir singh 
+VJS0211,Shivani Darta,Sales,Rohru,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,Yes,20,20,100.0%,PASS,Ranvir singh 
+VJS0244,Preeti .,Sales,Rohru,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,Yes,20,20,100.0%,PASS,Ranvir singh 
+VJS0207,Deepanshu .,Accounts,Rohru,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,Yes,20,20,100.0%,PASS,Ranvir singh 
+VJS0263,Nikhil Ramketa,Accounts,Rohru,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,Yes,19,20,95.0%,PASS,Ranvir singh 
+VJS0245,Muskan .,Sales,Rohru,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,Yes,20,20,100.0%,PASS,Ranvir singh 
+VJS0329,Narender,BTL,Rohru,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,Yes,19,20,95.0%,PASS,Ranvir singh 
+VJS0276,Sweety Dharta,Sales,Rohru,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,Yes,14,20,70.0%,PASS,Ranvir singh 
+VJS0234,Mrinal .,Sales,Exhibition,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,Yes,20,20,100.0%,PASS,Sheesh Ram Thakur 
+VJS0115,Abhishek Abhi Sharma,Sales,Exhibition,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,Yes,19,20,95.0%,PASS,Sheesh Ram Thakur 
+VJS0235,Rajeev Kumar,Sales,Exhibition,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,Yes,18,20,90.0%,PASS,Sheesh Ram Thakur 
+VJS0014,Varun Garg,Wedding,Solan,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,Yes,19,20,95.0%,PASS,Sheesh Ram Thakur 
+VJS0113,Dinesh Kumar,Sales,Exhibition,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,Yes,19,20,95.0%,PASS,Sheesh Ram Thakur 
+VJS0119,Bhupender Singh,Sales,Exhibition,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,Yes,19,20,95.0%,PASS,Sheesh Ram Thakur 
+VJS0300,Dishant Thakur,Sales,Exhibition,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,Yes,16,20,80.0%,PASS,Sheesh Ram Thakur 
+VJS0049,Sunil Attri,Sales,Exhibition,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,No,0,20,0.0%,FAIL,Sheesh Ram Thakur 
+VJS0046,Bhagender Sharma,Admin OFC,Exhibition,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,Yes,15,20,75.0%,PASS,Sheesh Ram Thakur 
+VJS0013,Tapan Thakur,Sales,Exhibition,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,Yes,19,20,95.0%,PASS,Sheesh Ram Thakur 
+VJS0277,Babita Babita,Sales,Solan,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,Yes,19,20,95.0%,PASS,Sheesh Ram Thakur 
+VJS0171,Rahul Thakur,Sales,Solan,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,Yes,17,20,85.0%,PASS,Sheesh Ram Thakur 
+VJS0348,Puneet Verma,Sales,Solan,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,No,0,20,0.0%,FAIL,Sheesh Ram Thakur 
+VJS0036,Vaishali Thakur,Sales,Exhibition,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,Yes,19,20,95.0%,PASS,Sheesh Ram Thakur 
+VJS0181,Ranjana Chauhan,Sales,Solan,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,Yes,19,20,95.0%,PASS,Pankaj Vyas
+VJS0255,Richu Kumari,Sales,Solan,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,Yes,20,20,100.0%,PASS,Pankaj Vyas
+VJS0038,Sneha Thakur,Sales,Solan,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,No,0,20,0.0%,FAIL,Pankaj Vyas
+VJS0306,Jitender Kashyap,Sales,Solan,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,Yes,19,20,95.0%,PASS,Pankaj Vyas
+VJS0051,Meera Devi,Sales,Solan,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,Yes,18,20,90.0%,PASS,Pankaj Vyas
+VJS0338,Manoj Kumar,Sales,Solan,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,Yes,17,20,85.0%,PASS,Pankaj Vyas
+VJS0352,Sahil Kumar,Sales,Solan,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,Yes,20,20,100.0%,PASS,Pankaj Vyas
+VJS0054,Aruna Devi,Sales,Solan,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,No,0,20,0.0%,FAIL,Pankaj Vyas
+VJS0030,Reena Devi,Sales,Solan,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,No,0,20,0.0%,FAIL,Pankaj Vyas
+VJS0064,Sangeeta Kashyap,Sales,Solan,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,Yes,18,20,90.0%,PASS,Pankaj Vyas
+VJS0114,Monika Mehta,Sales,Solan,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,Yes,19,20,95.0%,PASS,Pankaj Vyas
+VJS0296,Rakesh Kumar,Sales,Solan,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,Yes,19,20,95.0%,PASS,Pankaj Vyas
+VJS0285,Aditya  Aditya,Sales,Solan,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,Yes,16,20,80.0%,PASS,Pankaj Vyas
+VJS0337,Kamal Jeet,Sales,Solan,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,Yes,17,20,85.0%,PASS,Pankaj Vyas
+VJS0010,Surender Singh,Sales,Solan,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,Yes,20,20,100.0%,PASS,Pankaj Vyas
+VJS0227,Virender Kumar,Sales,Solan,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,Yes,20,20,100.0%,PASS,Pankaj Vyas
+VJS0340,Rahul Chauhan,Sales,Solan,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,Yes,15,20,75.0%,PASS,Pankaj Vyas
+VJS0048,Vandana Devi,Sales,Solan,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,Yes,20,20,100.0%,PASS,Pankaj Vyas
+VJS0298,Kajal,Sales,Solan,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,Yes,9,20,45.0%,FAIL,Pankaj Vyas
+VJS0349,Shruti Falta,Sales,Rohru,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,Yes,20,20,100.0%,PASS,Pankaj Vyas
+VJS0265,Geeta Thakur,Sales,Solan,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,Yes,20,20,100.0%,PASS,Pankaj Vyas
+VJS0343,Gagan Kumar,Sales,Solan,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,Yes,20,20,100.0%,PASS,Pankaj Vyas
+VJS0295,Arpit Thakur,Sales,Solan,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,Yes,14,20,70.0%,PASS,Pankaj Vyas
+VJS0011,Rajesh Kumar,Sales,Solan,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,Yes,16,20,80.0%,PASS,Pankaj Vyas
+VJS0005,Naresh Dogra,Sales,Solan,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,Yes,19,20,95.0%,PASS,Pankaj Vyas
+VJS0041,Ajay Thakur,Sales,Solan,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,Yes,20,20,100.0%,PASS,Pankaj Vyas
+VJS0177,Madhu Sehgal,Sales,Solan,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,Yes,19,20,95.0%,PASS,Pankaj Vyas
+VJS0006,Sunil Dutt,Sales,Solan,"Product Knowledge — Gold, Silver & Traditional Jewellery  ",Post Assesment ,04/08/2026,Yes,20,20,100.0%,PASS,Pankaj Vyas
+VJS0029,Rati Ram,Sales,Solan,Diamond Fundamentals — 4Cs & Certification,Pre Assesment ,13/08/2026,Yes,9,10,90.0%,PASS,Pankaj Vyas 
+VJS0181,Ranjana Chauhan,Sales,Solan,Diamond Fundamentals — 4Cs & Certification,Pre Assesment ,13/08/2026,Yes,10,10,100.0%,PASS,Pankaj Vyas 
+VJS0114,Monika Mehta,Sales,Solan,Diamond Fundamentals — 4Cs & Certification,Pre Assesment ,13/08/2026,Yes,10,10,100.0%,PASS,Pankaj Vyas 
+VJS0252,Kritika Panwar,Sales,Solan,Diamond Fundamentals — 4Cs & Certification,Pre Assesment ,13/08/2026,Yes,10,10,100.0%,PASS,Pankaj Vyas 
+VJS0306,Jitender Kashyap,Sales,Solan,Diamond Fundamentals — 4Cs & Certification,Pre Assesment ,13/08/2026,Yes,10,10,100.0%,PASS,Pankaj Vyas 
+VJS0205,Shruti Verma,Sales,Rohru,Diamond Fundamentals — 4Cs & Certification,Pre Assesment ,13/08/2026,Yes,9,10,90.0%,PASS,Ranvir singh
+VJS0298,Kajal,Sales,Solan,Diamond Fundamentals — 4Cs & Certification,Pre Assesment ,13/08/2026,Yes,10,10,100.0%,PASS,Pankaj Vyas 
+VJS0041,Ajay Thakur,Sales,Solan,Diamond Fundamentals — 4Cs & Certification,Pre Assesment ,13/08/2026,Yes,10,10,100.0%,PASS,Pankaj Vyas 
+VJS0206,Nek Raj Ranta,Sales,Rohru,Diamond Fundamentals — 4Cs & Certification,Pre Assesment ,13/08/2026,Yes,10,10,100.0%,PASS,Ranvir singh
+VJS0115,Abhishek Abhi Sharma,Sales,Exhibition,Diamond Fundamentals — 4Cs & Certification,Pre Assesment ,13/08/2026,Yes,10,10,100.0%,PASS,Sheesh Ram Thakur 
+VJS0065,Kiran Sharma,Sales,Rohru,Diamond Fundamentals — 4Cs & Certification,Pre Assesment ,13/08/2026,Yes,10,10,100.0%,PASS,Ranvir singh
+VJS0013,Tapan Thakur,Sales,Exhibition,Diamond Fundamentals — 4Cs & Certification,Pre Assesment ,13/08/2026,Yes,10,10,100.0%,PASS,Sheesh Ram Thakur 
+VJS0343,Gagan Kumar,Sales,Solan,Diamond Fundamentals — 4Cs & Certification,Pre Assesment ,13/08/2026,Yes,9,10,90.0%,PASS,Pankaj Vyas 
+VJS0338,Manoj Kumar,Sales,Solan,Diamond Fundamentals — 4Cs & Certification,Pre Assesment ,13/08/2026,Yes,10,10,100.0%,PASS,Pankaj Vyas 
+VJS0033,Jitender Sharma,Sales,Rohru,Diamond Fundamentals — 4Cs & Certification,Pre Assesment ,13/08/2026,Yes,10,10,100.0%,PASS,Ranvir singh
+VJS0235,Rajeev Kumar,Sales,Exhibition,Diamond Fundamentals — 4Cs & Certification,Pre Assesment ,13/08/2026,Yes,9,10,90.0%,PASS,Sheesh Ram Thakur 
+VJS0245,Muskan .,Sales,Rohru,Diamond Fundamentals — 4Cs & Certification,Pre Assesment ,13/08/2026,Yes,10,10,100.0%,PASS,Ranvir singh
+VJS0329,Narender,BTL,Rohru,Diamond Fundamentals — 4Cs & Certification,Pre Assesment ,13/08/2026,Yes,10,10,100.0%,PASS,Ranvir singh
+VJS0044,Rajat Kumar,Sales,Rohru,Diamond Fundamentals — 4Cs & Certification,Pre Assesment ,13/08/2026,Yes,10,10,100.0%,PASS,Ranvir singh
+VJS0276,Sweety Dharta,Sales,Rohru,Diamond Fundamentals — 4Cs & Certification,Pre Assesment ,13/08/2026,Yes,9,10,90.0%,PASS,Ranvir singh
+VJS0001,Madan .,Sales,Rohru,Diamond Fundamentals — 4Cs & Certification,Pre Assesment ,13/08/2026,Yes,10,10,100.0%,PASS,Ranvir singh
+VJS0192,Richu Duggal .,Sales,Rohru,Diamond Fundamentals — 4Cs & Certification,Pre Assesment ,13/08/2026,Yes,9,10,90.0%,PASS,Ranvir singh
+VJS0202,Vipul Sharma,Sales,Rohru,Diamond Fundamentals — 4Cs & Certification,Pre Assesment ,13/08/2026,Yes,9,10,90.0%,PASS,Ranvir singh
+VJS0298,Kajal,Sales,Solan,Diamond Fundamentals — 4Cs & Certification,Post Assesment ,18/08/2026,Yes,15,15,100.0%,PASS,Pankaj Vyas
+VJS0285,Aditya  Aditya,Sales,Solan,Diamond Fundamentals — 4Cs & Certification,Post Assesment ,18/08/2026,Yes,14,15,93.3%,PASS,Pankaj Vyas
+VJS0181,Ranjana Chauhan,Sales,Solan,Diamond Fundamentals — 4Cs & Certification,Post Assesment ,18/08/2026,Yes,15,15,100.0%,PASS,Pankaj Vyas
+VJS0348,Puneet Verma,Sales,Solan,Diamond Fundamentals — 4Cs & Certification,Post Assesment ,18/08/2026,Yes,15,15,100.0%,PASS,Pankaj Vyas
+VJS0064,Sangeeta Kashyap,Sales,Solan,Diamond Fundamentals — 4Cs & Certification,Post Assesment ,18/08/2026,Yes,15,15,100.0%,PASS,Pankaj Vyas
+VJS0343,Gagan Kumar,Sales,Solan,Diamond Fundamentals — 4Cs & Certification,Post Assesment ,18/08/2026,Yes,13,15,86.7%,PASS,Pankaj Vyas
+VJS0338,Manoj Kumar,Sales,Solan,Diamond Fundamentals — 4Cs & Certification,Post Assesment ,18/08/2026,Yes,15,15,100.0%,PASS,Pankaj Vyas
+VJS0114,Monika Mehta,Sales,Solan,Diamond Fundamentals — 4Cs & Certification,Post Assesment ,18/08/2026,Yes,15,15,100.0%,PASS,Pankaj Vyas
+VJS0227,Virender Kumar,Sales,Solan,Diamond Fundamentals — 4Cs & Certification,Post Assesment ,18/08/2026,Yes,15,15,100.0%,PASS,Pankaj Vyas
+VJS0296,Rakesh Kumar,Sales,Solan,Diamond Fundamentals — 4Cs & Certification,Post Assesment ,18/08/2026,Yes,14,15,93.3%,PASS,Pankaj Vyas
+VJS0337,Kamal Jeet,Sales,Solan,Diamond Fundamentals — 4Cs & Certification,Post Assesment ,18/08/2026,Yes,12,15,80.0%,PASS,Pankaj Vyas
+VJS0038,Sneha Thakur,Sales,Solan,Diamond Fundamentals — 4Cs & Certification,Post Assesment ,18/08/2026,Yes,15,15,100.0%,PASS,Pankaj Vyas
+VJS0027,Yash Pal Sharma,Sales,Solan,Diamond Fundamentals — 4Cs & Certification,Post Assesment ,18/08/2026,Yes,15,15,100.0%,PASS,Pankaj Vyas
+VJS0265,Geeta Thakur,Sales,Solan,Diamond Fundamentals — 4Cs & Certification,Post Assesment ,18/08/2026,Yes,15,15,100.0%,PASS,Pankaj Vyas
+VJS0051,Meera Devi,Sales,Solan,Diamond Fundamentals — 4Cs & Certification,Post Assesment ,18/08/2026,Yes,15,15,100.0%,PASS,Pankaj Vyas
+VJS0306,Jitender Kashyap,Sales,Solan,Diamond Fundamentals — 4Cs & Certification,Post Assesment ,18/08/2026,Yes,13,15,86.7%,PASS,Pankaj Vyas
+VJS0115,Abhishek Abhi Sharma,Sales,Exhibition,Diamond Fundamentals — 4Cs & Certification,Post Assesment ,18/08/2026,Yes,15,15,100.0%,PASS,Sheesh Ram Thakur 
+VJS0039,Shalini Aulakh,Sales,Solan,Diamond Fundamentals — 4Cs & Certification,Post Assesment ,18/08/2026,Yes,15,15,100.0%,PASS,Pankaj Vyas
+VJS0255,Richu Kumari,Sales,Solan,Diamond Fundamentals — 4Cs & Certification,Post Assesment ,18/08/2026,Yes,15,15,100.0%,PASS,Pankaj Vyas
+VJS0029,Rati Ram,Sales,Solan,Diamond Fundamentals — 4Cs & Certification,Post Assesment ,18/08/2026,Yes,15,15,100.0%,PASS,Pankaj Vyas
+VJS0006,Sunil Dutt,Sales,Solan,Diamond Fundamentals — 4Cs & Certification,Post Assesment ,18/08/2026,Yes,15,15,100.0%,PASS,Pankaj Vyas
+VJS0295,Arpit Thakur,Sales,Solan,Diamond Fundamentals — 4Cs & Certification,Post Assesment ,18/08/2026,Yes,14,15,93.3%,PASS,Pankaj Vyas
+VJS0013,Tapan Thakur,Sales,Exhibition,Diamond Fundamentals — 4Cs & Certification,Post Assesment ,18/08/2026,Yes,13,15,86.7%,PASS,Sheesh Ram Thakur 
+VJS0235,Rajeev Kumar,Sales,Exhibition,Diamond Fundamentals — 4Cs & Certification,Post Assesment ,18/08/2026,Yes,12,15,80.0%,PASS,Sheesh Ram Thakur 
+VJS0292,Nihal Kashyap,Sales,Solan,Diamond Fundamentals — 4Cs & Certification,Post Assesment ,18/08/2026,Yes,15,15,100.0%,PASS,Pankaj Vyas
+VJS0171,Rahul Thakur,Sales,Solan,Diamond Fundamentals — 4Cs & Certification,Post Assesment ,18/08/2026,Yes,13,15,86.7%,PASS,Sheesh Ram Thakur 
+VJS0119,Bhupender Singh,Sales,Exhibition,Diamond Fundamentals — 4Cs & Certification,Post Assesment ,18/08/2026,Yes,15,15,100.0%,PASS,Sheesh Ram Thakur 
+VJS0036,Vaishali Thakur,Sales,Exhibition,Diamond Fundamentals — 4Cs & Certification,Post Assesment ,18/08/2026,Yes,14,15,93.3%,PASS,Sheesh Ram Thakur 
+VJS0113,Dinesh Kumar,Sales,Exhibition,Diamond Fundamentals — 4Cs & Certification,Post Assesment ,18/08/2026,NO ,0,15,0.0%,FAIL,Sheesh Ram Thakur 
+VJS0300,Dishant Thakur,Sales,Exhibition,Diamond Fundamentals — 4Cs & Certification,Post Assesment ,18/08/2026,NO ,0,15,0.0%,FAIL,Sheesh Ram Thakur 
+VJS0049,Sunil Attri,Sales,Exhibition,Diamond Fundamentals — 4Cs & Certification,Post Assesment ,18/08/2026,NO ,0,15,0.0%,FAIL,Sheesh Ram Thakur 
+VJS0033,Jitender Sharma,Sales,Rohru,Diamond Fundamentals — 4Cs & Certification,Post Assesment ,22/08/2026,Yes,15,15,100.0%,PASS,Ranvir singh
+VJS0232,Deepika Chauhan,Sales,Rohru,Diamond Fundamentals — 4Cs & Certification,Post Assesment ,22/08/2026,Yes,15,15,100.0%,PASS,Ranvir singh
+VJS0206,Nek Raj Ranta,Sales,Rohru,Diamond Fundamentals — 4Cs & Certification,Post Assesment ,22/08/2026,Yes,15,15,100.0%,PASS,Ranvir singh
+VJS0205,Shruti Verma,Sales,Rohru,Diamond Fundamentals — 4Cs & Certification,Post Assesment ,22/08/2026,Yes,15,15,100.0%,PASS,Ranvir singh
+VJS0244,Preeti .,Sales,Rohru,Diamond Fundamentals — 4Cs & Certification,Post Assesment ,22/08/2026,Yes,15,15,100.0%,PASS,Ranvir singh
+VJS0245,Muskan .,Sales,Rohru,Diamond Fundamentals — 4Cs & Certification,Post Assesment ,22/08/2026,Yes,15,15,100.0%,PASS,Ranvir singh
+VJS0202,Vipul Sharma,Sales,Rohru,Diamond Fundamentals — 4Cs & Certification,Post Assesment ,22/08/2026,Yes,15,15,100.0%,PASS,Ranvir singh
+VJS0349,Shruti Falta,Sales,Rohru,Diamond Fundamentals — 4Cs & Certification,Post Assesment ,22/08/2026,Yes,15,15,100.0%,PASS,Ranvir singh
+VJS0276,Sweety Dharta,Sales,Rohru,Diamond Fundamentals — 4Cs & Certification,Post Assesment ,22/08/2026,Yes,10,15,66.7%,FAIL,Ranvir singh
+VJS0211,Shivani Darta,Sales,Rohru,Diamond Fundamentals — 4Cs & Certification,Post Assesment ,22/08/2026,Yes,15,15,100.0%,PASS,Ranvir singh
+VJS0001,Madan .,Sales,Rohru,Diamond Fundamentals — 4Cs & Certification,Post Assesment ,22/08/2026,Yes,15,15,100.0%,PASS,Ranvir singh
+VJS0065,Kiran Sharma,Sales,Rohru,Diamond Fundamentals — 4Cs & Certification,Post Assesment ,22/08/2026,Yes,15,15,100.0%,PASS,Ranvir singh
+VJS0367,Himani Sharma,Sales,Rohru,Diamond Fundamentals — 4Cs & Certification,Post Assesment ,22/08/2026,Yes,15,15,100.0%,PASS,Ranvir singh
+VJS0263,Nikhil Ramketa,Accounts,Rohru,Diamond Fundamentals — 4Cs & Certification,Post Assesment ,22/08/2026,Yes,15,15,100.0%,PASS,Ranvir singh
+VJS0005,Naresh Dogra,Sales,Solan,Jewel Club New T&C Training,Post Assesment,24/09/2026,Yes,19,20,95.0%,PASS,Shubham  Jaswal 
+VJS0006,Sunil Dutt,Sales,Solan,Jewel Club New T&C Training,Post Assesment,24/09/2026,Yes,20,20,100.0%,PASS,Shubham  Jaswal 
+VJS0010,Surender Singh,Sales,Solan,Jewel Club New T&C Training,Post Assesment,24/09/2026,Yes,19,20,95.0%,PASS,Shubham  Jaswal 
+VJS0011,Rajesh Kumar,Sales,Solan,Jewel Club New T&C Training,Post Assesment,24/09/2026,Yes,12,20,60.0%,FAIL,Shubham  Jaswal 
+VJS0013,Tapan Thakur,Sales,Exhibition,Jewel Club New T&C Training,Post Assesment,24/09/2026,Yes,19,20,95.0%,PASS,Shubham  Jaswal 
+VJS0016,Raghuveer Singh Singh,Sales,Solan,Jewel Club New T&C Training,Post Assesment,24/09/2026,No,0,20,0.0%,FAIL,Shubham  Jaswal 
+VJS0027,Yash Pal Sharma,Sales,Solan,Jewel Club New T&C Training,Post Assesment,24/09/2026,Yes,20,20,100.0%,PASS,Shubham  Jaswal 
+VJS0029,Rati Ram,Sales,Solan,Jewel Club New T&C Training,Post Assesment,24/09/2026,Yes,18,20,90.0%,PASS,Shubham  Jaswal 
+VJS0030,Reena Devi,Sales,Solan,Jewel Club New T&C Training,Post Assesment,24/09/2026,Yes,20,20,100.0%,PASS,Shubham  Jaswal 
+VJS0038,Sneha Thakur,Sales,Solan,Jewel Club New T&C Training,Post Assesment,24/09/2026,Yes,20,20,100.0%,PASS,Shubham  Jaswal 
+VJS0039,Shalini Aulakh,Sales,Solan,Jewel Club New T&C Training,Post Assesment,24/09/2026,No,0,20,0.0%,FAIL,Shubham  Jaswal 
+VJS0040,Mona .,Sales,Solan,Jewel Club New T&C Training,Post Assesment,24/09/2026,Yes,19,20,95.0%,PASS,Shubham  Jaswal 
+VJS0041,Ajay Thakur,Sales,Solan,Jewel Club New T&C Training,Post Assesment,24/09/2026,Yes,19,20,95.0%,PASS,Shubham  Jaswal 
+VJS0047,Govind Verma,Sales,Solan,Jewel Club New T&C Training,Post Assesment,24/09/2026,No,0,20,0.0%,FAIL,Shubham  Jaswal 
+VJS0048,Vandana Devi,Sales,Solan,Jewel Club New T&C Training,Post Assesment,24/09/2026,Yes,20,20,100.0%,PASS,Shubham  Jaswal 
+VJS0051,Meera Devi,Sales,Solan,Jewel Club New T&C Training,Post Assesment,24/09/2026,Yes,15,20,75.0%,PASS,Shubham  Jaswal 
+VJS0054,Aruna Devi,Sales,Solan,Jewel Club New T&C Training,Post Assesment,24/09/2026,Yes,18,20,90.0%,PASS,Shubham  Jaswal 
+VJS0055,Sapna Thakur,Sales,Solan,Jewel Club New T&C Training,Post Assesment,24/09/2026,Yes,18,20,90.0%,PASS,Shubham  Jaswal 
+VJS0064,Sangeeta Kashyap,Sales,Solan,Jewel Club New T&C Training,Post Assesment,24/09/2026,Yes,20,20,100.0%,PASS,Shubham  Jaswal 
+VJS0114,Monika Mehta,Sales,Solan,Jewel Club New T&C Training,Post Assesment,24/09/2026,Yes,20,20,100.0%,PASS,Shubham  Jaswal 
+VJS0163,Sonal Chauhan,Sales,Solan,Jewel Club New T&C Training,Post Assesment,24/09/2026,Yes,20,20,100.0%,PASS,Shubham  Jaswal 
+VJS0165,Kiran Devi,Sales,Solan,Jewel Club New T&C Training,Post Assesment,24/09/2026,No,0,20,0.0%,FAIL,Shubham  Jaswal 
+VJS0171,Rahul Thakur,Sales,Solan,Jewel Club New T&C Training,Post Assesment,24/09/2026,Yes,17,20,85.0%,PASS,Shubham  Jaswal 
+VJS0177,Madhu Sehgal,Sales,Solan,Jewel Club New T&C Training,Post Assesment,24/09/2026,Yes,18,20,90.0%,PASS,Shubham  Jaswal 
+VJS0181,Ranjana Chauhan,Sales,Solan,Jewel Club New T&C Training,Post Assesment,24/09/2026,Yes,19,20,95.0%,PASS,Shubham  Jaswal 
+VJS0227,Virender Kumar,Sales,Solan,Jewel Club New T&C Training,Post Assesment,24/09/2026,No,0,20,0.0%,FAIL,Shubham  Jaswal 
+VJS0228,Muskan .,Sales,Solan,Jewel Club New T&C Training,Post Assesment,24/09/2026,Yes,14,20,70.0%,PASS,Shubham  Jaswal 
+VJS0252,Kritika Panwar,Sales,Solan,Jewel Club New T&C Training,Post Assesment,24/09/2026,No,0,20,0.0%,FAIL,Shubham  Jaswal 
+VJS0255,Richu Kumari,Sales,Solan,Jewel Club New T&C Training,Post Assesment,24/09/2026,Yes,19,20,95.0%,PASS,Shubham  Jaswal 
+VJS0265,Geeta Thakur,Sales,Solan,Jewel Club New T&C Training,Post Assesment,24/09/2026,Yes,20,20,100.0%,PASS,Shubham  Jaswal 
+VJS0277,Babita Babita,Sales,Solan,Jewel Club New T&C Training,Post Assesment,24/09/2026,Yes,15,20,75.0%,PASS,Shubham  Jaswal 
+VJS0278,Sarla Devi,Sales,Solan,Jewel Club New T&C Training,Post Assesment,24/09/2026,Yes,20,20,100.0%,PASS,Shubham  Jaswal 
+VJS0285,Aditya  Aditya,Sales,Solan,Jewel Club New T&C Training,Post Assesment,24/09/2026,Yes,19,20,95.0%,PASS,Shubham  Jaswal 
+VJS0292,Nihal Kashyap,Sales,Solan,Jewel Club New T&C Training,Post Assesment,24/09/2026,No,0,20,0.0%,FAIL,Shubham  Jaswal 
+VJS0295,Arpit Thakur,Sales,Solan,Jewel Club New T&C Training,Post Assesment,24/09/2026,Yes,16,20,80.0%,PASS,Shubham  Jaswal 
+VJS0296,Rakesh Kumar,Sales,Solan,Jewel Club New T&C Training,Post Assesment,24/09/2026,Yes,20,20,100.0%,PASS,Shubham  Jaswal 
+VJS0297,Shubham Shubham,Sales,Solan,Jewel Club New T&C Training,Post Assesment,24/09/2026,Yes,20,20,100.0%,PASS,Shubham  Jaswal 
+VJS0298,Kajal,Sales,Solan,Jewel Club New T&C Training,Post Assesment,24/09/2026,Yes,20,20,100.0%,PASS,Shubham  Jaswal 
+VJS0306,Jitender Kashyap,Sales,Solan,Jewel Club New T&C Training,Post Assesment,24/09/2026,Yes,17,20,85.0%,PASS,Shubham  Jaswal 
+VJS0335,Pankaj Vyas,Sales,Solan,Jewel Club New T&C Training,Post Assesment,24/09/2026,No,0,20,0.0%,FAIL,Shubham  Jaswal 
+VJS0337,Kamal Jeet,Sales,Solan,Jewel Club New T&C Training,Post Assesment,24/09/2026,No,0,20,0.0%,FAIL,Shubham  Jaswal 
+VJS0338,Manoj Kumar,Sales,Solan,Jewel Club New T&C Training,Post Assesment,24/09/2026,Yes,18,20,90.0%,PASS,Shubham  Jaswal 
+VJS0340,Rahul Chauhan,Sales,Solan,Jewel Club New T&C Training,Post Assesment,24/09/2026,Yes,19,20,95.0%,PASS,Shubham  Jaswal 
+VJS0343,Gagan Kumar,Sales,Solan,Jewel Club New T&C Training,Post Assesment,24/09/2026,Yes,16,20,80.0%,PASS,Shubham  Jaswal 
+VJS0348,Puneet Verma,Sales,Solan,Jewel Club New T&C Training,Post Assesment,24/09/2026,Yes,20,20,100.0%,PASS,Shubham  Jaswal 
+VJS0351,Hem Lata,Sales,Solan,Jewel Club New T&C Training,Post Assesment,25/09/2026,Yes,15,20,75.0%,PASS,Shubham  Jaswal 
+VJS0352,Sahil Kumar,Sales,Solan,Jewel Club New T&C Training,Post Assesment,25/09/2026,No,0,20,0.0%,FAIL,Shubham  Jaswal 
+VJS0355,Nitika Thakur,Sales,Solan,Jewel Club New T&C Training,Post Assesment,25/09/2026,Yes,19,20,95.0%,PASS,Shubham  Jaswal 
+VJS0357,Kuldeep Kumar,Sales,Solan,Jewel Club New T&C Training,Post Assesment,25/09/2026,No,0,20,0.0%,FAIL,Shubham  Jaswal 
+VJS0001,Madan .,Sales,Rohru,Jewel Club New T&C Training,Post Assesment,25/09/2026,Yes,20,20,100.0%,PASS,Shubham  Jaswal 
+VJS0033,Jitender Sharma,Sales,Rohru,Jewel Club New T&C Training,Post Assesment,25/09/2026,Yes,17,20,85.0%,PASS,Shubham  Jaswal 
+VJS0044,Rajat Kumar,Sales,Rohru,Jewel Club New T&C Training,Post Assesment,25/09/2026,Yes,20,20,100.0%,PASS,Shubham  Jaswal 
+VJS0065,Kiran Sharma,Sales,Rohru,Jewel Club New T&C Training,Post Assesment,25/09/2026,Yes,19,20,95.0%,PASS,Shubham  Jaswal 
+VJS0202,Vipul Sharma,Sales,Rohru,Jewel Club New T&C Training,Post Assesment,25/09/2026,Yes,15,20,75.0%,PASS,Shubham  Jaswal 
+VJS0205,Shruti Verma,Sales,Rohru,Jewel Club New T&C Training,Post Assesment,25/09/2026,Yes,17,20,85.0%,PASS,Shubham  Jaswal 
+VJS0206,Nek Raj Ranta,Sales,Rohru,Jewel Club New T&C Training,Post Assesment,25/09/2026,Yes,20,20,100.0%,PASS,Shubham  Jaswal 
+VJS0210,Saurav Dharta,Sales,Rohru,Jewel Club New T&C Training,Post Assesment,25/09/2026,Yes,20,20,100.0%,PASS,Shubham  Jaswal 
+VJS0211,Shivani Darta,Accounts,Rohru,Jewel Club New T&C Training,Post Assesment,25/09/2026,Yes,17,20,85.0%,PASS,Shubham  Jaswal 
+VJS0232,Deepika Chauhan,Sales,Rohru,Jewel Club New T&C Training,Post Assesment,25/09/2026,Yes,20,20,100.0%,PASS,Shubham  Jaswal 
+VJS0244,Preeti .,Sales,Rohru,Jewel Club New T&C Training,Post Assesment,25/09/2026,Yes,20,20,100.0%,PASS,Shubham  Jaswal 
+VJS0245,Muskan .,Sales,Rohru,Jewel Club New T&C Training,Post Assesment,25/09/2026,Yes,12,20,60.0%,FAIL,Shubham  Jaswal 
+VJS0276,Sweety Dharta,Sales,Rohru,Jewel Club New T&C Training,Post Assesment,25/09/2026,Yes,20,20,100.0%,PASS,Shubham  Jaswal 
+VJS0349,Shruti Falta,Sales,Rohru,Jewel Club New T&C Training,Post Assesment,25/09/2026,Yes,11,20,55.0%,FAIL,Shubham  Jaswal 
+VJS0350,Ranvir Singh,Sales,Rohru,Jewel Club New T&C Training,Post Assesment,25/09/2026,No,0,20,0.0%,FAIL,Shubham  Jaswal 
+VJS0367,Himani Sharma,Sales,Rohru,Jewel Club New T&C Training,Post Assesment,25/09/2026,No,0,20,0.0%,FAIL,Shubham  Jaswal 
+VJS0004,Sheesh Ram Thakur,Sales,Exhibition,Jewel Club New T&C Training,Post Assesment,26/09/2026,Yes,20,20,100.0%,PASS,Shubham  Jaswal 
+VJS0024,Mukesh Rangarh,Sales,Exhibition,Jewel Club New T&C Training,Post Assesment,26/09/2026,Yes,20,20,100.0%,PASS,Shubham  Jaswal 
+VJS0036,Vaishali Thakur,Sales,Exhibition,Jewel Club New T&C Training,Post Assesment,26/09/2026,Yes,20,20,100.0%,PASS,Shubham  Jaswal 
+VJS0049,Sunil Attri,Sales,Exhibition,Jewel Club New T&C Training,Post Assesment,26/09/2026,Yes,20,20,100.0%,PASS,Shubham  Jaswal 
+VJS0113,Dinesh Kumar,Sales,Exhibition,Jewel Club New T&C Training,Post Assesment,26/09/2026,No,0,20,0.0%,FAIL,Shubham  Jaswal 
+VJS0115,Abhishek Abhi Sharma,Sales,Exhibition,Jewel Club New T&C Training,Post Assesment,26/09/2026,Yes,20,20,100.0%,PASS,Shubham  Jaswal 
+VJS0119,Bhupender Singh,Sales,Exhibition,Jewel Club New T&C Training,Post Assesment,26/09/2026,No,0,20,0.0%,FAIL,Shubham  Jaswal 
+VJS0234,Mrinal .,Sales,Exhibition,Jewel Club New T&C Training,Post Assesment,26/09/2026,Yes,20,20,100.0%,PASS,Shubham  Jaswal 
+VJS0235,Rajeev Kumar,Sales,Exhibition,Jewel Club New T&C Training,Post Assesment,26/09/2026,Yes,18,20,90.0%,PASS,Shubham  Jaswal 
+VJS0300,Dishant Thakur,Sales,Exhibition,Jewel Club New T&C Training,Post Assesment,26/09/2026,Yes,18,20,90.0%,PASS,Shubham  Jaswal 
+VJS0358,Sapna Negi,Sales,Exhibition,Jewel Club New T&C Training,Post Assesment,26/09/2026,Yes,19,20,95.0%,PASS,Shubham  Jaswal 
+VJS0369,Vandana Devi,Sales,Exhibition,Jewel Club New T&C Training,Post Assesment,26/09/2026,No,0,20,0.0%,FAIL,Shubham  Jaswal 
+VJS0373,Kajal Chauhan,Sales,Exhibition,Jewel Club New T&C Training,Post Assesment,26/09/2026,Yes,18,20,90.0%,PASS,Shubham  Jaswal 
+VJS0014,Varun Garg,Wedding,Solan,Jewel Club New T&C Training,Post Assesment,30/09/2026,No,0,20,0.0%,FAIL,Shubham  Jaswal 
+VJS0045,Lok Nath,BTL,Solan,Jewel Club New T&C Training,Post Assesment,30/09/2026,Yes,16,20,80.0%,PASS,Shubham  Jaswal 
+VJS0066,Sangeeta Chhetri,BTL,Solan,Jewel Club New T&C Training,Post Assesment,30/09/2026,Yes,17,20,85.0%,PASS,Shubham  Jaswal 
+VJS0075,Anku Bala,Jewel Club,Solan,Jewel Club New T&C Training,Post Assesment,30/09/2026,Yes,19,20,95.0%,PASS,Shubham  Jaswal 
+VJS0076,Kajal .,Jewel Club,Solan,Jewel Club New T&C Training,Post Assesment,30/09/2026,Yes,20,20,100.0%,PASS,Shubham  Jaswal 
+VJS0087,Priyanka .,ASP,Solan,Jewel Club New T&C Training,Post Assesment,30/09/2026,Yes,18,20,90.0%,PASS,Shubham  Jaswal 
+VJS0128,Preeti Thakur,Jewel Club,Solan,Jewel Club New T&C Training,Post Assesment,30/09/2026,Yes,18,20,90.0%,PASS,Shubham  Jaswal 
+VJS0137,Kumari Sakshi,ASP,Solan,Jewel Club New T&C Training,Post Assesment,30/09/2026,Yes,19,20,95.0%,PASS,Shubham  Jaswal 
+VJS0138,Neeta Sharma,Jewel Club,Solan,Jewel Club New T&C Training,Post Assesment,30/09/2026,Yes,19,20,95.0%,PASS,Shubham  Jaswal 
+VJS0140,Priti Kumari,ASP,Solan,Jewel Club New T&C Training,Post Assesment,30/09/2026,Yes,19,20,95.0%,PASS,Shubham  Jaswal 
+VJS0166,Tamanna Chauhan,ASP,Solan,Jewel Club New T&C Training,Post Assesment,30/09/2026,Yes,19,20,95.0%,PASS,Shubham  Jaswal 
+VJS0176,Manoj Kumar,BTL,Solan,Jewel Club New T&C Training,Post Assesment,30/09/2026,Yes,19,20,95.0%,PASS,Shubham  Jaswal 
+VJS0180,Bhanu Devi,ASP,Solan,Jewel Club New T&C Training,Post Assesment,30/09/2026,Yes,17,20,85.0%,PASS,Shubham  Jaswal 
+VJS0184,Shabhnam Katoch,NPS,Solan,Jewel Club New T&C Training,Post Assesment,30/09/2026,Yes,19,20,95.0%,PASS,Shubham  Jaswal 
+VJS0189,Preeti Sharma,NPS,Solan,Jewel Club New T&C Training,Post Assesment,30/09/2026,Yes,18,20,90.0%,PASS,Shubham  Jaswal 
+VJS0214,Priyanka Thakur,ASP,Solan,Jewel Club New T&C Training,Post Assesment,30/09/2026,Yes,19,20,95.0%,PASS,Shubham  Jaswal 
+VJS0250,Kumari Priyanka,Jewel Club,Solan,Jewel Club New T&C Training,Post Assesment,30/09/2026,Yes,15,20,75.0%,PASS,Shubham  Jaswal 
+VJS0275,Prachi Singh,ASP,Solan,Jewel Club New T&C Training,Post Assesment,30/09/2026,Yes,16,20,80.0%,PASS,Shubham  Jaswal 
+VJS0288,Nitin Nitin,BTL,Solan,Jewel Club New T&C Training,Post Assesment,30/09/2026,Yes,18,20,90.0%,PASS,Shubham  Jaswal 
+VJS0310,Sanjay Kumar,Wedding,Solan,Jewel Club New T&C Training,Post Assesment,30/09/2026,No,0,20,0.0%,FAIL,Shubham  Jaswal 
+VJS0316,Uday Dutt,BTL,Solan,Jewel Club New T&C Training,Post Assesment,30/09/2026,Yes,15,20,75.0%,PASS,Shubham  Jaswal 
+VJS0342,Ankita Thakur,ASP,Solan,Jewel Club New T&C Training,Post Assesment,30/09/2026,Yes,20,20,100.0%,PASS,Shubham  Jaswal 
+VJS0347,Avantika Negi,NPS,Solan,Jewel Club New T&C Training,Post Assesment,30/09/2026,Yes,18,20,90.0%,PASS,Shubham  Jaswal 
+VJS0353,Dharmendra Goyal,CRM,Solan,Jewel Club New T&C Training,Post Assesment,30/09/2026,Yes,9,20,45.0%,FAIL,Shubham  Jaswal 
+VJS0359,Sakshi Verma,Wedding,Solan,Jewel Club New T&C Training,Post Assesment,30/09/2026,Yes,18,20,90.0%,PASS,Shubham  Jaswal 
+VJS0360,Divya Chauhan,Jewel Club,Solan,Jewel Club New T&C Training,Post Assesment,30/09/2026,Yes,20,20,100.0%,PASS,Shubham  Jaswal 
+VJS0375,Shiv Kumar,Sales,Rohru,Jewel Club New T&C Training,Post Assesment,30/09/2026,Yes,19,20,95.0%,PASS,Shubham  Jaswal 
+VJS0237,Sunita Devi,Admin,Rohru,Jewel Club New T&C Training,Post Assesment,30/09/2026,Yes,20,20,100.0%,PASS,Shubham  Jaswal 
+VJS0364,Saurabh Sharma,Billing,Exhibition,Jewel Club New T&C Training,Post Assesment,25/09/2026,Yes,19,20,95.0%,PASS,Shubham  Jaswal 
+VJS0201,Manisha .,Accounts,Solan,Jewel Club New T&C Training,Post Assesment,30/09/2026,Yes,19,20,95.0%,PASS,Shubham  Jaswal 
+VJS0362,Rahul Banolta,Sales,Solan,Jewel Club New T&C Training,Post Assesment,30/09/2026,Yes,20,20,100.0%,PASS,Shubham  Jaswal 
+VJS0302,Diwakar Diwakar,Accounts,Solan,Jewel Club New T&C Training,Post Assesment,30/09/2026,Yes,19,20,95.0%,PASS,Shubham  Jaswal 
+VJS0263,Nikhil,Accounts,Rohru,Jewel Club New T&C Training,Post Assesment,25/09/2026,Yes,20,20,100.0%,PASS,Shubham  Jaswal 
+VJS0129,Purnima Thakur,Accounts,Solan,Jewel Club New T&C Training,Post Assesment,30/09/2026,Yes,20,20,100.0%,PASS,Shubham  Jaswal 
+VJS0071,Manju sharma,Accounts,Solan,Jewel Club New T&C Training,Post Assesment,30/09/2026,Yes,20,20,100.0%,PASS,Shubham  Jaswal 
+VJS0217,Gian Singh,Admin,Rohru,Jewel Club New T&C Training,Post Assesment,30/09/2026,Yes,20,20,100.0%,PASS,Shubham  Jaswal 
+VJS0207,Deepanshu .,Accounts,Rohru,Jewel Club New T&C Training,Post Assesment,24/09/2026,Yes,20,20,100.0%,PASS,Shubham  Jaswal 
+VJS0372,Kuldeep Kumar,Jewel Club,Rohru,Jewel Club New T&C Training,Post Assesment,30/09/2026,Yes,20,20,100.0%,PASS,Shubham  Jaswal 
+VJS0247,Munish kumar,BTL,Rohru,Jewel Club New T&C Training,Post Assesment,30/09/2026,Yes,19,20,95.0%,PASS,Shubham  Jaswal 
